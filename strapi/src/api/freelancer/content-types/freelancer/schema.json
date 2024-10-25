@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "freelancers",
+  "info": {
+    "singularName": "freelancer",
+    "pluralName": "freelancers",
+    "displayName": "Freelancers",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

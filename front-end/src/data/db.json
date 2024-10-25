@@ -1,0 +1,42 @@
+{
+  "chats": [
+
+      {
+        "id": 1,
+        "receiverId": 2,
+        "message": "Привіт, як справи?",
+        "timestamp": "2024-09-25T19:55:00Z",
+        "read": false
+      },
+      {
+        "id": 2,
+        "receiverId": 1,
+        "message": "Все добре, а в тебе?",
+        "timestamp": "2024-09-25T19:56:00Z",
+        "read": false
+      },
+      {
+        "id": 3,
+        "receiverId": 2,
+        "message": "Теж все ок!",
+        "timestamp": "2024-09-25T19:57:00Z",
+        "read": true
+      },
+      {
+        "id": 4,
+        "receiverId": 3,
+        "message": "Привіт, що робиш?",
+        "timestamp": "2024-09-25T19:58:00Z",
+        "read": true
+      },
+      {
+        "id": 5,
+        "receiverId": 1,
+        "message": "Привіт, працюю над проектом.",
+        "timestamp": "2024-09-25T19:59:00Z",
+        "read": false
+      }
+
+
+  ]
+}

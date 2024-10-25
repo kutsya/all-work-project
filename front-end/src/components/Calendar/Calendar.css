@@ -1,0 +1,17 @@
+.caledar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.caledar > input {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.button-calendar {
+  margin-top: 0;
+}

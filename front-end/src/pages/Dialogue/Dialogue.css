@@ -1,0 +1,214 @@
+.dialogs_wrap {
+  position: relative;
+  width: 100%;
+  height: max-content;
+}
+
+.dialogs_wrap > div:nth-of-type(1) {
+  position: absolute;
+  transition: 0.5s;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.dialogs_wrap > div > div:nth-of-type(1) {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+  color: #90caf9;
+}
+
+.dialogs_wrap > div > div:first-child > span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+}
+
+.dialogs_wrap > div:first-child > div > span > button:nth-of-type(1) {
+  outline: none;
+  width: max-content;
+  margin-left: 20px;
+}
+
+.dialogs_wrap > div > div:nth-of-type(2) {
+  width: 55vw;
+  height: 70vh;
+  border: 1px solid #90caf9;
+  padding: 20px 30px;
+  margin: 20px auto;
+  background-color: rgb(232, 243, 252);
+  border-radius: 20px 0 0 0;
+  -webkit-border-radius: 20px 0 0 0;
+  -moz-border-radius: 20px 0 0 0;
+  -ms-border-radius: 20px 0 0 0;
+  -o-border-radius: 20px 0 0 0;
+  overflow-y: auto;
+}
+
+.dialogs_notMy_messages,
+.dialogs_my_messages {
+  position: relative;
+  left: 0;
+  color: rgb(99, 99, 99);
+  width: 80%;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  border-top: 1px solid #2196f3;
+  border-right: 1px solid #2196f3;
+  border-bottom: 1px solid #2196f3;
+  box-shadow: 0px 0 3px 3px #2196f3;
+  border-radius: 10px;
+  padding: 5px 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 30px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 80%;
+}
+
+.dialogs_notMy_messages {
+  margin-left: auto;
+  color: rgb(99, 99, 99);
+  background-color: rgb(232, 243, 252);
+  border-top: 1px solid #90caf9;
+  border-left: 1px solid #90caf9;
+  border-bottom: 1px solid #90caf9;
+  box-shadow: 0px 0 3px 3px #90caf9;
+  border-right: 0;
+  border-radius: 10px;
+  padding: 5px 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.dialogs_my_messages > span,
+.dialogs_notMy_messages > span {
+  display: flex;
+  width: 100%;
+  color: gray;
+  justify-content: right;
+}
+
+.dialogs_my_messages > span {
+  justify-content: left;
+}
+
+.dialogs_wrap > div > div > div:nth-of-type(2) {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  left: 0px;
+  bottom: -18px;
+  height: max-content;
+  border: 1px solid gray;
+  border-radius: 0 0 0 20px;
+  -webkit-border-radius: 0 0 0 20px;
+  -moz-border-radius: 0 0 0 20px;
+  -ms-border-radius: 0 0 0 20px;
+  -o-border-radius: 0 0 0 20px;
+}
+
+.dialogs_wrap > div > div:nth-of-type(2) > div button {
+  margin: 0;
+  width: 10%;
+  border-radius: 0;
+  outline: none;
+}
+
+.dialogs_wrap > div > div:nth-of-type(2) > div input {
+  width: 90%;
+  border-radius: 0 0 0 20px;
+  -webkit-border-radius: 0 0 0 20px;
+  -moz-border-radius: 0 0 0 20px;
+  -ms-border-radius: 0 0 0 20px;
+  -o-border-radius: 0 0 0 20px;
+  outline: none;
+  padding: 0 50px;
+  border: 1px solid #90caf9;
+  background: gainsboro;
+  color: rgb(99, 99, 99);
+  font-size: 18px;
+  cursor: default;
+}
+
+.dialogs_wrap > div > div:nth-of-type(2) > div input::placeholder {
+  color: #2196f3;
+}
+
+.dialogue_header_user,
+.dialogue_no_messages {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  color: #2196f3;
+}
+
+.dialogue_header_user {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: #90caf9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .css-fy4ycq-RaLayout-root .RaLayout-appFrame {
+    width: 100vw;
+  }
+
+  .dialogs_wrap > div:nth-of-type(1) {
+    width: 100%;
+  }
+
+  .dialogs_wrap > div > div:nth-of-type(2) {
+    width: 100%;
+    height: 78vh;
+    margin: 10px auto;
+  }
+
+  .dialogs_wrap > div > div:nth-of-type(2) > div button {
+    width: 20%;
+  }
+
+  .dialogs_wrap > div > div:nth-of-type(1) {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dialogs_wrap > div > div:first-child > span {
+    flex-direction: column;
+  }
+
+  #dialogue_header_delete {
+    display: none;
+  }
+}

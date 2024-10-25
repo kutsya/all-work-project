@@ -1,0 +1,56 @@
+.admin-dashboard {
+    padding: 20px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-dashboard__charts {
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+@media screen and (max-width: 768px) {
+    .admin-dashboard__charts {
+       flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .admin-dashboard__charts {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .RaLayout-content {
+        width: 100vw !important;
+    }
+}
+
+.admin-dashboard__charts_block {
+    background: #fff; 
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    box-sizing: border-box; 
+}
+
+@media screen and (min-width: 769px) {
+    .admin-dashboard__charts_block {
+        width: 35vw;    
+    }
+}
+
+.admin-dashboard__charts_block_name {
+    margin-bottom: 10px;
+    text-align: center; 
+    color: black;
+}

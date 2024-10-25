@@ -1,0 +1,96 @@
+.list_freelancers_wrap {
+  position: absolute;
+  width: 52vw;
+  min-height: 70vh;
+  padding: 20px;
+  color: #2196f3;
+  background-color: rgb(206, 232, 255);
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.list_freelancers_wrap > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list_freelancers_wrap > div:nth-of-type(2) > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #2196f3;
+  padding: 0 0 10px 0;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.list_freelancers_wrap > div:nth-of-type(2) > ul:hover {
+  border-bottom: 1px solid #2196f3;
+  box-shadow: 0px 5px 10px -5px #2196f3;
+}
+
+.list_freelancers_wrap > div:nth-of-type(2) > ul > li {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.list_freelancers_wrap > div:nth-of-type(2) > ul > li:first-child {
+  width: 50px;
+}
+
+.list_freelancers_wrap > div:nth-of-type(2) > ul > li:nth-of-type(2) {
+  min-width: 70px;
+  max-width: 150px;
+  overflow-x: hidden;
+}
+
+.list_freelancers_wrap > div:nth-of-type(2) > ul > li:nth-of-type(3) {
+  overflow-x: hidden;
+}
+
+.list_freelancers_wrap input {
+  border-bottom: 2px solid #2196f3 !important;
+  opacity: 1 !important;
+  background-color: aliceblue;
+  color: #0063b4;
+}
+
+@media (max-width: 1024px) {
+  .list_freelancers_wrap > div:nth-of-type(2) > ul > li:last-child {
+    display: none;
+  }
+
+  .list_freelancers_wrap {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 599px) {
+  .list_freelancers_wrap {
+    width: 95vw;
+  }
+}
+
+@media (max-width: 360px) {
+  .list_freelancers_wrap > div:nth-of-type(2) > ul > li:nth-of-type(3) {
+    display: none;
+  }
+
+  .list_freelancers_wrap input {
+    width: 50vw;
+  }
+}

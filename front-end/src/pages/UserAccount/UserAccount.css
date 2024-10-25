@@ -1,0 +1,43 @@
+.main{
+    margin:20px;
+    width: 100%;
+    height: 100%;
+}
+
+.accountBlock{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+}
+
+.accountData{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.accountData > p{
+    color:black;
+    margin:0;
+    font-weight: bold;
+}
+
+.editBlock{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: center;
+}
+
+.buttonBlock{
+    display: flex;
+    gap:16px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.userInfo{
+    font-style: italic;
+    font-weight: normal;
+}

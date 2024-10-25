@@ -1,0 +1,12 @@
+.bar-chart {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bar-chart > h2 {
+  text-align: center;
+}
+
+.RaLayout-content {
+  width: 80vw;
+}

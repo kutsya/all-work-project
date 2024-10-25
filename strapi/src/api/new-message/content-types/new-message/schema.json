@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_messages",
+  "info": {
+    "singularName": "new-message",
+    "pluralName": "new-messages",
+    "displayName": "newMessage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "newMessages": {
+      "type": "json"
+    }
+  }
+}

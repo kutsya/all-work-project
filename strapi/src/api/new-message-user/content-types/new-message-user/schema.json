@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_message_users",
+  "info": {
+    "singularName": "new-message-user",
+    "pluralName": "new-message-users",
+    "displayName": "newMessageUser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "newMessagesUser": {
+      "type": "json"
+    }
+  }
+}

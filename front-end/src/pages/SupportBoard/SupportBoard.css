@@ -1,0 +1,78 @@
+.support-board {
+  position: relative;
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  text-align: center;
+  padding-top: 50px;
+}
+
+button {
+  background-color: var(--button-background-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.support-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 5px;
+  background-color: var(--background-color);
+}
+
+.support-form h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: var(--text-color);
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--input-border-color);
+  background-color: var(--input-background-color);
+  color: var(--textarea-text-color); /* Цвет текста зависит от темы */
+  resize: vertical;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #e0e0e0;  
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+button[type="submit"]:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+p {
+  color: #28a745;
+  font-weight: bold;
+  margin-top: 10px;
+};

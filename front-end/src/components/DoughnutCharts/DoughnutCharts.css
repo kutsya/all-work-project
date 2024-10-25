@@ -1,0 +1,63 @@
+.doughnut-charts {
+  width: 40vw;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.doughnut-charts.full-width {
+  width: 100%;
+}
+
+.doughnut-container > h2 {
+  text-align: center;
+}
+
+.doughnut-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboardButton {
+  background-color: rgb(0 0 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  margin-top: 0 !important;
+}
+
+.ping {
+  border-radius: 50%;
+  border: 7px solid orangered;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.anime_wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 0 !important;
+  gap: 60px;
+  justify-content: center;
+}
+
+.anime {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 200px;
+  height: 100px;
+  border-radius: 100px 100px 0 0;
+  position: relative;
+  overflow: hidden;
+  font-size: 36px;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}

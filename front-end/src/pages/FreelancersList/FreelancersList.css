@@ -1,0 +1,17 @@
+.freelancers_wrap {
+  width: 80vw;
+}
+
+.freelancers_wrap img {
+  margin: 0.25rem;
+  border-radius: 50%;
+  width: 100px !important;
+  height: 100px;
+  object-fit: cover !important;
+}
+
+.freelancers_wrap td,
+.freelancers_wrap th {
+  width: max-content;
+  text-align: center;
+}

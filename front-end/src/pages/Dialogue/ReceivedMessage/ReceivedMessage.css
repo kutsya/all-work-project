@@ -1,0 +1,35 @@
+.received_message_wrap_red,
+.received_message_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 34px;
+  height: 24px;
+}
+
+.received_message_wrap_red {
+  background-color: red;
+  box-shadow: 0px 0px 5px red;
+  animation: blink 1s infinite;
+}
+
+.received_message_wrap_red img,
+.received_message_wrap img {
+  width: 50px;
+  height: 50px;
+}
+
+@keyframes blink {
+  0% {
+    box-shadow: 0px 0px 35px red;
+  }
+  50% {
+    box-shadow: 0px 0px 5px red;
+  }
+  100% {
+    box-shadow: 0px 0px 35px red;
+  }
+}
